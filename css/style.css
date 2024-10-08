@@ -25,5 +25,60 @@ ul {
 
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'Lexend Deca', serif;
+  color: white;
+}
+
+.background {
+  padding: 49px;
+  height: 442px;
+  position: relative;
+    
+}
+
+.background-1 {
+  background-color: #e28625;
+}
+
+.background-2 {
+  background-color: #006971;
+}
+
+.background-3 {
+  background-color: #004140;
+}
+
+.title {
+  font-family: 'Big Shoulders Display', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.text {
+  font-size: 15px;
+  color: rgb(255 255 255 / 0.75);
+  line-height: 25px;
+}
+
+
+.button {
+  position: absolute;
+  bottom: 48px;
+  padding: 11px 32px;
+  background-color: #fff;
+  border-radius: 25px;
+}
+
+.button-orange {
+  color:  #e28625;
+}
+
+.button-blue {
+  color: #006971;
+}
+
+.button-green {
+  
+  color: #004140;
 }
