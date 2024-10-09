@@ -29,22 +29,27 @@ body {
   color: white;
 }
 
-.background {
+.card {
   padding: 49px;
   height: 442px;
   position: relative;
-    
+}
+@media screen and (width>768px) {
+  .card {
+    display: inline-block;
+    width: 307px;
+  }
 }
 
-.background-1 {
+.card-1 {
   background-color: #e28625;
 }
 
-.background-2 {
+.card-2 {
   background-color: #006971;
 }
 
-.background-3 {
+.card-3 {
   background-color: #004140;
 }
 
@@ -61,7 +66,6 @@ body {
   line-height: 25px;
 }
 
-
 .button {
   position: absolute;
   bottom: 48px;
@@ -69,9 +73,16 @@ body {
   background-color: #fff;
   border-radius: 25px;
 }
+@media (hover: hover) {
+  .button:hover {
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+  }
+}
 
 .button-orange {
-  color:  #e28625;
+  color: #e28625;
 }
 
 .button-blue {
@@ -79,6 +90,5 @@ body {
 }
 
 .button-green {
-  
   color: #004140;
 }
